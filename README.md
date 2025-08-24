@@ -1,9 +1,9 @@
 # WBC-classification-using-Feature-Extraction
-📌 Methodology
+📌**Methodology**
 
 This project combines Deep Learning and Machine Learning techniques to build a robust system for White Blood Cell (WBC) Classification.
 
-🔹 Preprocessing & Segmentation
+🔹 **Preprocessing & Segmentation**
 
 Image Preprocessing
 
@@ -21,7 +21,7 @@ The Watershed algorithm is applied for cell segmentation.
 
 Extracted WBC cells are used for further feature processing.
 
-🔹 Feature Extraction
+🔹 **Feature Extraction**
 
 The model employs a dual-feature strategy:
 
@@ -43,13 +43,13 @@ Aspect Ratio
 
 Extent
 
-🔹 Handling Class Imbalance
+🔹 **Handling Class Imbalance**
 
 To counter class imbalance, SMOTE (Synthetic Minority Oversampling Technique) is applied during training.
 
 This ensures balanced representation of all WBC types.
 
-🔹 Classification
+🔹 **Classification**
 
 The extracted features (deep + handcrafted) are combined.
 
@@ -57,7 +57,7 @@ A LightGBM Gradient Boosting Classifier is trained on the balanced dataset.
 
 This hybrid approach leverages both deep learned representations and domain-specific handcrafted features for improved accuracy.
 
-🔹 Evaluation
+🔹 **Evaluation**
 
 The final model is evaluated using:
 
