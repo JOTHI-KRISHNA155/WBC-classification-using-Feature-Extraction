@@ -65,8 +65,3 @@ Accuracy Score
 
 Classification Report (Precision, Recall, F1-Score)
 Dataset Link: https://www.kaggle.com/datasets/masoudnickparvar/white-blood-cells-dataset
-The dataset used in this project is publicly available on Kaggle:
-
-🔗 White Blood Cells Dataset
-
-It contains labeled images of different types of White Blood Cells (WBCs), which are used for preprocessing, feature extraction, and classification.
